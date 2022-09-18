@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabrielx4000/smoothie-api/issues"
   },
-  "homepage": "https://github.com/gabrielx4000/smoothie-api#readme"
+  "homepage": "https://github.com/gabrielx4000/smoothie-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
