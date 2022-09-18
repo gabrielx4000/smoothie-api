@@ -38,6 +38,14 @@ app.get('/smoothies', (req, res) => {
     res.json(response)
 })
 
+app.all('*', function(req, res) {
+    res.status(404).json({
+        "status": 404,
+        "error": "Not Found",
+        "message": "Route you are trying to access does not exist",
+    })
+})
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 })
