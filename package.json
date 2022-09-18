@@ -1,0 +1,19 @@
+{
+  "name": "smoothie-api",
+  "version": "1.0.0",
+  "description": "a simple API for smoothie recipes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielx4000/smoothie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielx4000/smoothie-api/issues"
+  },
+  "homepage": "https://github.com/gabrielx4000/smoothie-api#readme"
+}
